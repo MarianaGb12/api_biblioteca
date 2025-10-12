@@ -1,4 +1,5 @@
 # Proyecto 1: Biblioteca Backend 
+Autor: Mariana Guerrero Benavides
 
 # Estructura del Proyecto
 ```
@@ -19,7 +20,7 @@ src/
 ```
 
 # Clone repository
-> https://github.com/MarianaGb12/api_biblioteca
+> https://github.com/MarianaGb12/api_biblioteca.git
 
 # Enter to folder project
 > cd api_biblioteca
