@@ -6,16 +6,24 @@ Autor: Mariana Guerrero Benavides
 src/
 ├── config/
 │   └── db.js              # Conexión a MongoDB
+├── controllers/           # Controladores	
+│   ├── usuariosControllers.js         
+│   ├── librosControllers.js           
+│   └── reservasControllers.js         
 ├── middleware/
 │   └── auth.js            # Middleware de autenticación (JWT)
 ├── models/					  # Modelos del proyecto(usuario, libro)	
 │   ├── Usuario.js         
 │   ├── Libro.js           
 │   └── Reserva.js         # Modelo para reservas
-├── routes/					 # Rutas
+├── routes/					# Rutas
 │   ├── usuarios.js        
 │   ├── libros.js          
-│   └── reservas.js        
+│   └── reservas.js  
+├── tests/           # Pruebas	
+│   ├── usuariosControllers.test.js         
+│   ├── librosControllers.test.js           
+│   └── reservasControllers.test.js      
 └── server.js              # Servidor principal
 ```
 
