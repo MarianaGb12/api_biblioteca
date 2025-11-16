@@ -68,3 +68,10 @@ PORT=4000
 - `POST /api/reservas/` - Crear reserva (requiere auth)
 - `GET /api/reservas/usuario/:id` - se observa historial de reservas con id de usuario
 - `GET /api/reservas/libro/:id` - se observa historial de reservas con id de libro
+
+#Ejecutar pruebas
+> cd src
+
+> cd tests
+
+> npm test
